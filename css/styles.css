@@ -11,8 +11,8 @@ html {
 
 .container {
   max-width: 1440px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 165px;
+  padding-right: 165px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -174,12 +174,6 @@ body {
   padding-bottom: 150px;
 }
 
-.hr-advantages{
-  height: 1px;
-  width: 150px;
-  background-color: #C396C6;
-}
-
 .advantages-heading{
 
   font-family: DM Serif Display;
@@ -190,7 +184,14 @@ body {
   margin-top: 63px;
 }
 
-
+.advantages-heading::before{
+  content: '';
+  height: 1px;
+  width: 150px;
+  background-color: #C396C6;
+  display: block;
+  margin-bottom: 100px;
+}
 .advantages-list{
   display: flex;
   list-style: none;
